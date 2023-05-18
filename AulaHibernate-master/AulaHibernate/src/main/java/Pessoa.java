@@ -33,7 +33,7 @@ public class Pessoa implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Pessoa [id=" + id + ", nome=" + nome + ", email=" + email + ", cargo=" + cargo + "]";
+		return "id: " + id + " \n Nome: " + nome + ", Email: " + email + ", Cargo: " + cargo ;
 	}
 
 	public Integer getId() {
